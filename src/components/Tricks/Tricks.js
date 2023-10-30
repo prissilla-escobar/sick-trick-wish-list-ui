@@ -2,7 +2,7 @@ import './Tricks.css'
 import Card from '../Card/Card'
 
 function Tricks({ tricks }) {
-    console.log('TRICKS', tricks)
+
     const trickCards = tricks.map(trick => {
         return (
             <Card 
